@@ -28,8 +28,7 @@ function sendemail()
                 $verificationcode = $row['code'];
                 $useremail = $row['uname'];
             }
-        }else{
-
+        } else {
         }
         //Server settings
         $mail->SMTPDebug = 1;                      //Enable verbose debug output
